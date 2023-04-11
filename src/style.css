@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid grey;
+  padding: 0.5em 0.5em;
+}
+
+.container {
+  background-color: white;
+  width: 500px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  list-style: none;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7em;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#input {
+  border: none;
+  padding: 0.5em;
+  font-size: 20px;
+  width: 85%;
+}
+
+.hidden {
+  display: none;
+}
+
+i {
+  cursor: pointer;
+}
+
+.completed_all {
+  width: 100%;
+  font-size: 18px;
+  padding: 0.5em;
+  height: 50px;
+  cursor: pointer;
+  border: thin solid lightgrey;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submit {
+  float: right;
+  align-self: center;
+  font-size: 16px;
+  padding: 0.7em 0.3em;
+  width: 15%;
+  background-color: rgb(102, 101, 101);
+  font-weight: 700;
+  color: white;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+  background-color: yellow;
+  font-size: 25px;
+  color: rgb(91, 90, 90);
+}
+
+.li {
+  font-size: 25px;
+  color: rgb(91, 90, 90);
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.fa-edit,
+.fa-trash-alt,
+.fa-ellipsis-v {
+  font-size: 30px;
+  color: grey;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
